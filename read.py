@@ -36,6 +36,7 @@ with open("test.txt", "r") as f:
     a = data[0][:-1]
     b = data[1]
     print(a, b)
+
 # or you can do the following:
 with open("test.txt", "r") as f:
     data = f.read().splitlines()
